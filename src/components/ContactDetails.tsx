@@ -33,12 +33,12 @@ const ContactDetails = () => {
             {
                 contacts.map((contact: any, id: any)=>(
                         <tr key={id}>
-                            <td  >{id+1}</td>
+                            <td >{id+1}</td>
                             <td>{contact.name}</td>
                             <td>{contact.email}</td>
                             <td>{contact.number}</td>
                             <td style={{display:"flex",justifyContent:"space-around"}}>
-                                <Link to={`/edit/${contact.id+1}`} className='btn btn-small btn-primary mr-2'>Update</Link>
+                                <Link to={`/edit/${contact.id}`} className='btn btn-small btn-primary mr-2'>Update</Link>
                                 <button type="button" onClick={()=>deleteContact(contact.id)} className='btn btn-small btn-danger'>Delete</button>
                                     
                             </td>

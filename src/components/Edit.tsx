@@ -59,8 +59,8 @@ const Edit = () => {
 
   return (
     <div className="container">
-      {/* {currentContact ? (
-        <> */}
+      {currentContact ? (
+        <>
       <h1 className="display-3 text-center m-5">Edit Contact {id} </h1>
       <div className="row">
         <div className="col-md-6 shadow mx-auto p-5">
@@ -108,12 +108,12 @@ const Edit = () => {
           </form>
         </div>
       </div>
-      {/* </>
+      </>
       ) : (
         <>
-          <h1 className="display-3 my-5 text-center">Contact Id does not Exists</h1>
+          <h1 className="display-3 my-5 text-center">Contact Id {id} does not Exists</h1>
         </>
-      )} */}
+      )}
     </div>
   );
 };
