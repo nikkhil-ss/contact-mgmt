@@ -1,0 +1,9 @@
+Steps to operate the web-app
+
+1: Click and open the Link
+2:Click on the contact details to get the contact details
+3:Click on the "create contact" to create new contact
+4:Click on the "edit" button to edit and update the existing contact.
+5: Click on the "Delete" button to delete the contact.
+6:Click on the left corner "contact app" text too return to the homePage.
+7: On homePage click on the "Charts and Maps" to preview the graphs of the covid cases.

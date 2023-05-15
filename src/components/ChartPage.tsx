@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 
 const ChartPage = () => {
- 
+ //chart page for different category of charts
   return (
     <div>
       <div  className='col-md-12 my-5' style={{textAlign:'center'}} >
